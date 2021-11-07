@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+      - toCheck
 
 jobs:
   deploy:
