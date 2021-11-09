@@ -1,1 +1,1 @@
-web: java -jar build/libs/Home-Chores-1.0-SNAPSHOT.jar
+web: java -jar build/libs/home-1.0-SNAPSHOT.jar
