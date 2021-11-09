@@ -5,9 +5,9 @@ import co.home.bussines.repository.IRolRepository;
 import co.home.infrastructure.repository.jpa.RolRepositoryJpa;
 import co.home.infrastructure.repository.entity.RolEntity;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
-@Component
+@Repository
 public class RolRepository implements IRolRepository {
 
     @Autowired

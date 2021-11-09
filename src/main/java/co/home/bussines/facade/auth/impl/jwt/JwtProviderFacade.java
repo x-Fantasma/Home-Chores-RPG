@@ -5,10 +5,10 @@ import co.home.bussines.adapters.mapperDto.JwtMapperDto;
 import co.home.bussines.facade.auth.useCase.IJwtProviderFacade;
 import co.home.bussines.service.auth.useCase.jwt.IJwtProvider;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-@Component
+@Service
 @Transactional
 public class JwtProviderFacade implements IJwtProviderFacade {
 

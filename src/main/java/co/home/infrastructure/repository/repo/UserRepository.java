@@ -4,9 +4,9 @@ import co.home.bussines.repository.IUserRepository;
 import co.home.infrastructure.repository.jpa.UserRepositoryJpa;
 import co.home.infrastructure.repository.entity.UserEntity;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
-@Component
+@Repository
 public class UserRepository implements IUserRepository {
 
     @Autowired
