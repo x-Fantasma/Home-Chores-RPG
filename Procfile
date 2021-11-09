@@ -1,1 +1,1 @@
-web: java -cp target/classes/:target/dependency/* com.wedevol.xmpp.EntryPoint
+web: java -jar build/libs/co.home-1.0-SNAPSHOT.jar
